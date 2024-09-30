@@ -35,7 +35,6 @@ class DetailViewModel: ObservableObject {
             return "Creator Details"
         }
     }
-    let APIKey = "89254dd94f744703b79b3e941c1a1c22"
     func fetchDetails() async {
         let urlString: String
         switch filter {

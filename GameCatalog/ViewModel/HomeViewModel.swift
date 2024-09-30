@@ -23,7 +23,6 @@ class HomeViewModel: ObservableObject {
     func fetchListData(for filter: ButtonFilter) async {
         isFetching = true
         defer { isFetching = false }
-        let APIKey = "89254dd94f744703b79b3e941c1a1c22"
         let urlString: String
         switch filter {
         case .games:
@@ -63,7 +62,6 @@ class HomeViewModel: ObservableObject {
         }
     }
     func fetchSearchData(for filter: ButtonFilter, name: String) async {
-        let APIKey = "89254dd94f744703b79b3e941c1a1c22"
         let urlString: String
         let encodedName = name.replacingOccurrences(of: " ", with: "-")
                               .addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
