@@ -10,7 +10,6 @@
 		6313674D2C8984D800BC390C /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6313674C2C8984D800BC390C /* FavoriteView.swift */; };
 		631F00F72C81C39600FF35CA /* Screenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F00F62C81C39600FF35CA /* Screenshot.swift */; };
 		631F00F92C81C4E000FF35CA /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F00F82C81C4E000FF35CA /* Achievement.swift */; };
-		635557862CAA51890034682F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635557852CAA51880034682F /* API.swift */; };
 		635557882CAA51A10034682F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 635557872CAA519E0034682F /* .gitignore */; };
 		638101682C89A02800DC0543 /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638101672C89A02800DC0543 /* CoreDataProvider.swift */; };
 		6381016B2C89EEB100DC0543 /* FavoritesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 638101692C89EEB100DC0543 /* FavoritesModel.xcdatamodeld */; };
@@ -36,7 +35,6 @@
 		6313674C2C8984D800BC390C /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		631F00F62C81C39600FF35CA /* Screenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screenshot.swift; sourceTree = "<group>"; };
 		631F00F82C81C4E000FF35CA /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
-		635557852CAA51880034682F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		635557872CAA519E0034682F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		638101672C89A02800DC0543 /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
 		6381016A2C89EEB100DC0543 /* FavoritesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoritesModel.xcdatamodel; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				635557872CAA519E0034682F /* .gitignore */,
-				635557852CAA51880034682F /* API.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -291,7 +288,6 @@
 				63B3F4322C7F8041001D352F /* Creator.swift in Sources */,
 				631F00F92C81C4E000FF35CA /* Achievement.swift in Sources */,
 				63DE0A052C7CF3E400DB72A7 /* GameCatalogApp.swift in Sources */,
-				635557862CAA51890034682F /* API.swift in Sources */,
 				639AAC5E2C7F8F90005C3584 /* HomeView.swift in Sources */,
 				63B3F4362C7F8783001D352F /* ProfileView.swift in Sources */,
 				6313674D2C8984D800BC390C /* FavoriteView.swift in Sources */,
