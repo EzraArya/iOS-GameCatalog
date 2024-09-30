@@ -1,21 +1,23 @@
-//
-//  ContentView.swift
-//  GameCatalog
-//
-//  Created by Ezra Arya Wijaya on 27/08/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var navigationState = NavigationState()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            HomeView()
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+            FavoriteView()
+                .tabItem {
+                    Label("Favorite", systemImage: "heart")
+                }
+            ProfileView()
+                .tabItem {
+                    Label("Profile", systemImage: "person")
+                }
         }
-        .padding()
+        .environmentObject(navigationState)
     }
 }
 
